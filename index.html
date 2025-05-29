@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página Principal</title>
+  <link rel="stylesheet" href="/Assets/Css/reset.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/Assets/Css/customs.css">
+  <link rel="stylesheet" href="/Assets/Css/variables.css">
+  <link rel="stylesheet" href="/Assets/Css/media/media-pagina-principal.css">
+</head>
+
+<body>
+
+  <header aria-label="Menu Principal">
+    <nav class="header navbar navbar-expand-lg">
+      <div id="inicio"
+        class="header-conteudo container-fluid d-flex my-3 align-items-center justify-content-between limita-conteudo">
+        <img class="w-logo-ajuste" src="/Assets/Images/LogoFyvo.png"
+          alt="logo da fyvo, um gráfico preto com uma seta verde apontando para cima">
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav d-flex gap-4">
+            <a class="nav-link estilo-header-items" href="#inicio">Início</a>
+            <a class="nav-link estilo-header-items" href="#controle-financeiro">Controle Financeiro</a>
+            <a class="nav-link estilo-header-items" href="#sobre-nossa-iniciativa">Sobre nós</a>
+            <a class="nav-link estilo-header-items" href="#footer">Contato</a>
+            <a class="nav-link estilo-header-items" href="#faq">FAQ</a>
+          </div>
+        </div>
+        <div class="d-flex align-items-center gap-4">
+          <a class="header-botoes text-decoration-none estilo-botao-branco" href="#">Entrar</a>
+          <a class="header-botoes text-decoration-none estilo-botao-verde" href="#">Registrar</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main aria-label="Navegação Principal">
+
+    <section
+      class="container-fluid section-principal-apresentacao gradiente-section-principal tamanho-section-principal">
+      <div class="section-principal-inicio d-flex align-items-center limita-conteudo">
+        <div
+          class="section-principal-apresentacao-esquerda d-flex flex-column gap-3 ajuste-section-principal w-75 pe-5">
+          <h1 class="section-principal-texto-principal text-uppercase fw-bolder destaque-texto-cinza-escuro">Controle
+            sua vida financeira com <strong class="destaque-texto-verde">inteligência, segurança e autonomia</strong>
+          </h1>
+          <h3 class="section-principal-paragrafo-principal fw-normal fs-5 destaque-texto-cinza-claro">Soluções
+            financeiras simples e transparentes,
+            especialmente desenvolvidas para atender às necessidades de
+            nossos usuários</h3>
+          <div class="section-principal-botoes d-flex align-items-center gap-4 mt-4">
+            <a class="estilo-botao-verde text-decoration-none" href="#">Comece Agora</a>
+            <button class="estilo-botao-branco">Saiba mais</button>
+          </div>
+        </div>
+        <div class="ajuste-section-principal">
+          <img class="w-img-principal" src="/Assets/Images/Imagem-principal.png"
+            alt="um casal olhando para um notebook com um olhar feliz">
+        </div>
+      </div>
+    </section>
+
+    <section class="section-cards mt-5 limita-conteudo">
+      <h2 class="text-center destaque-texto-cinza-escuro fw-bold">O que oferecemos aos nossos clientes</h2>
+      <div class="section-cards-oferecimentos d-md-flex ajuste-card gap-5">
+        <div class="section-card-item bg-white d-flex flex-column border-estilizado-card pt-3 ps-3">
+          <img class="ajuste-img-section-cards" src="/Assets/Images/seguranca.png" alt="">
+          <h4 class="section-card-titulo destaque-texto-cinza-escuro fw-bold fs-5 pt-3">Investimentos
+            Seguros</h4>
+          <p class="destaque-texto-cinza-claro pe-1">Opções de investimento com baixo risco e retorno garantido</p>
+        </div>
+        <div class="section-cards-oferecimentos bg-white d-flex flex-column gap-3 border-estilizado-card pt-3 ps-3">
+          <img class="ajuste-img-section-cards" src="/Assets/Images/usuario.png" alt="">
+          <h4 class="section-card-titulo destaque-texto-cinza-escuro fw-bold fs-5">Atendimento Personalizado</h4>
+          <p class="destaque-texto-cinza-claro pe-1">Suporte dedicado com profissionais especializados</p>
+        </div>
+        <div class="section-cards-oferecimentos bg-white d-flex flex-column gap-3 border-estilizado-card pt-3 ps-3">
+          <img class="ajuste-img-section-cards" src="/Assets/Images/livro.png" alt="">
+          <h4 class="section-card-titulo destaque-texto-cinza-escuro fw-bold fs-5">Educação Financeira</h4>
+          <p class="destaque-texto-cinza-claro pe-1">Conteúdo educativo para melhorar sua relação com o dinheiro</p>
+        </div>
+        <div class="section-cards-oferecimentos bg-white d-flex flex-column gap-3 border-estilizado-card pt-3 ps-3">
+          <img class="ajuste-img-section-cards" src="/Assets/Images/tabela.png" alt="">
+          <h4 class="section-card-titulo destaque-texto-cinza-escuro fw-bold fs-5">Tabelas De Controle</h4>
+          <p class="destaque-texto-cinza-claro pe-1">Tabelas de controle financeiro e registro de valores</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-center mt-section bg-cor-verde tamanho-section-sobre-iniciativa">
+      <div class="limita-conteudo pt-4">
+        <h2 id="sobre-nossa-iniciativa" class="destaque-texto-branco-basico fw-bold pt-3">Sobre nossa iniciativa</h2>
+        <h5 class="section-iniciativa-paragrafo destaque-texto-branco-basico fw-light pt-3">A Fyvo é uma empresa
+          brasileira comprometida em
+          transformar a relação das pessoas com o dinheiro, oferecendo
+          uma experiência digital clara, intuitiva e acessível para todas as idades.</h5>
+      </div>
+    </section>
+
+    <section class="text-center mt-section">
+      <h2 id="controle-financeiro" class="section-controle-titulo destaque-texto-cinza-escuro fw-bold">Controle
+        Financeiro em nossa Plataforma
+      </h2>
+      <div class="section-controle-financeiro-agrupamento-tabela d-flex align-items-center limita-conteudo">
+        <div class="text-start">
+          <p
+            class="section-controle-financeiro-paragrafo destaque-texto-cinza-claro fw-normal fs-controle-financeiro text-start pb-4 w-75">
+            Na nossa
+            plataforma, você pode
+            registrar seus
+            gastos e recebimentos manualmente ou ativar o modo automático, que adiciona automaticamente ao seu histórico
+            todos os valores recebidos por aqui.</p>
+          <a class="estilo-botao-branco text-decoration-none" href="#">Saiba mais</a>
+        </div>
+        <div>
+          <img class="w-img-grafico" src="/Assets/Images/grafico.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="text-center mt-section bg-cor-verde tamanho-section-sobre-iniciativa">
+      <div class="section-chamada-videos limita-conteudo pt-4">
+        <h2 class="destaque-texto-branco-basico fw-bold">Assista nossos vídeos iniciais</h2>
+        <h5 class="section-tutoriais-paragrafo destaque-texto-branco-basico fw-light py-2">"Aqui você encontrará
+          tutoriais que orientam o uso do
+          nosso
+          site de forma mais eficiente, garantindo que
+          nenhuma informação importante seja perdida."</h5>
+        <div class="section-botao-assistir d-flex justify-content-center pt-2">
+          <a class="reestilizacao-botao-assistir estilo-botao-branco text-decoration-none" href="#">Assistir</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="mt-section">
+      <div class="limita-conteudo pt-4">
+        <h2 class="text-center destaque-texto-cinza-escuro fw-bold">Perguntas Frequentes (FAQ)</h2>
+        <div class="section-faq limita-conteudo pt-4 w-75 d-flex flex-column gap-4 mt-3">
+          <div class="card-faq bg-white d-flex flex-column gap-3 border-estilizado-card pt-3 ps-3">
+            <h3 class="destaque-texto-cinza-escuro fw-bold fs-5">Esse aplicativo é de uso gratuito?</h3>
+            <p class="destaque-texto-cinza-claro pe-1">Sim, nosso aplicativo é de uso gratuito </p>
+          </div>
+          <div class="card-faq bg-white d-flex flex-column gap-3 border-estilizado-card pt-3 ps-3">
+            <h3 class="destaque-texto-cinza-escuro fw-bold fs-5">Como começar a investir na minha idade?</h3>
+            <p class="destaque-texto-cinza-claro pe-1">Nunca é tarde para começar a investir. Oferecemos opções pensadas
+              para você, nosso usuário.</p>
+          </div>
+          <div class="card-faq bg-white d-flex flex-column gap-3 border-estilizado-card pt-3 ps-3">
+            <h3 class="destaque-texto-cinza-escuro fw-bold fs-5">É fácil e rápido efetuar o cadastro em nosso site?</h3>
+            <p class="destaque-texto-cinza-claro pe-1">Sim, o cadastro foi pensado para ser simples e direto. </p>
+          </div>
+          <div class="card-faq bg-white d-flex flex-column gap-3 border-estilizado-card pt-3 ps-3">
+            <h3 class="destaque-texto-cinza-escuro fw-bold fs-5">Para que servem as tabelas de registro?</h3>
+            <p class="destaque-texto-cinza-claro pe-1">As tabelas servem para você registrar seus gastos e planejar sua
+              vida financeira com inteligência e orientação.</p>
+          </div>
+    </section>
+
+    <section>
+      <div class="section-possui-conta d-flex align-items-center limita-conteudo mt-section-cofrinho">
+        <div class="section-divisao-cofrinho d-flex flex-column align-items-start w-75">
+          <h2 class="section-titulo-ja-possui-conta destaque-texto-cinza-escuro fw-bold py-3">Já possui uma conta em
+            nossa plataforma?</h2>
+          <p class="section-possui-conta-paragrafo destaque-texto-cinza-claro fs-5">Ao se cadastrar, você terá acesso ao
+            dashboard e aos recursos
+            exclusivos para usuários registrados.</p>
+          <p class="section-possui-conta-paragrafo destaque-texto-cinza-claro fs-5">Clique no botão abaixo para acessar
+            diretamente nosso cadastro.</p>
+          <div class="section-possui-conta-botao d-flex estilo-botao-verde align-items-center gap-4">
+            <img class="w-icon-seta" src="/Assets/Images/seta.png" alt="">
+            <a class="destaque-texto-branco-basico text-decoration-none" href="#">Cadastre-se</a>
+          </div>
+        </div>
+        <div class="img-cofrinho-div">
+          <img class="w-img-cofrinho-dinheiro img-estilizado-cofrinho" src="/Assets/Images/cofrinho-dinheiro.png"
+            alt="">
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="estilizacao-footer mt-section">
+    <div class="section-footer d-flex justify-content-between limita-conteudo">
+      <div class="d-flex flex-column mt-5 gap-3">
+        <h3 class="footer-titulos destaque-texto-branco-basico fw-normal fs-3">Links Rápidos</h3>
+        <a class="footer-items text-decoration-none destaque-texto-branco-basico fw-light items-footer-estilo"
+          href="#">Início</a>
+        <a class="footer-items text-decoration-none destaque-texto-branco-basico fw-light items-footer-estilo"
+          href="#">Serviços</a>
+        <a class="footer-items text-decoration-none destaque-texto-branco-basico fw-light items-footer-estilo"
+          href="#">Sobre Nós</a>
+        <a class="footer-items text-decoration-none destaque-texto-branco-basico fw-light items-footer-estilo"
+          href="#">Tutoriais</a>
+        <a class="footer-items text-decoration-none destaque-texto-branco-basico fw-light items-footer-estilo"
+          href="#">FAQ</a>
+      </div>
+      <div class="d-flex flex-column mt-5 gap-3">
+        <h3 class="footer-titulos destaque-texto-branco-basico fw-normal fs-3">Serviços</h3>
+        <a class="footer-items text-decoration-none destaque-texto-branco-basico fw-light items-footer-estilo"
+          href="#">Educação
+          Financeira</a>
+        <a class="footer-items text-decoration-none destaque-texto-branco-basico fw-light items-footer-estilo"
+          href="#">Investimentos</a>
+      </div>
+      <div class="d-flex flex-column mt-5 gap-3">
+        <h3 class="footer-titulos destaque-texto-branco-basico fw-normal fs-3">Contato</h3>
+        <a class="footer-items text-decoration-none destaque-texto-branco-basico fw-light items-footer-estilo"
+          href="#">(00)
+          0000-0000</a>
+        <a class="footer-items text-decoration-none destaque-texto-branco-basico fw-light items-footer-estilo"
+          href="#">contatofyvo@gmail.com</a>
+      </div>
+    </div>
+    <div class="text-center margin-top-espacamento-footer">
+      <hr class="destaque-texto-cinza-claro limita-conteudo">
+      <p class="destaque-texto-cinza-claro pt-2">Fyvo. Todos os direitos reservados</p>
+    </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+:root {
+    --font-sora: "Sora", sans-serif;
+
+    --cor-verde-principal: #042800;
+    --cor-verde-principal-hover: #073f01;
+    --cor-verde-claro: #ACE0A7;
+    --cor-cinza-basico: #383838;
+    --cor-cinza-claro: #535353;
+    --cor-branco-basico: #ffffff;
+    --cor-cinza-escuro: #0F100F;
+    --cor-cinza-cinza-claro-claro: #F2F2F2;
+    --cor-footer-escuro: #13181F;
+}
