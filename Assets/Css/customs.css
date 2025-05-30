@@ -34,9 +34,7 @@ header {
     transition: 0.13s;
     font-weight: 700;
     border-bottom: 2px solid var(--cor-verde-principal);
-    border-radius: 2.2px;
-    font-size: 17px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .estilo-botao-verde {
@@ -50,20 +48,12 @@ header {
 .estilo-botao-verde:hover {
     background-color: var(--cor-verde-principal-hover);
     transition: 0.3s;
-    padding: 13px 22.05px;
-    color: var(--cor-branco-basico);
-    font-size: 17px;
-    border-radius: 14px;
 }
 
 .estilo-botao-branco:hover {
     background-color: var(--cor-cinza-escuro);
     transition: 0.3s;
-    padding: 13px 22.05px;
     color: var(--cor-branco-basico);
-    font-size: 17px;
-    border: 1px solid var(--cor-cinza-escuro);
-    border-radius: 14px;
 }
 
 .estilo-botao-branco {
