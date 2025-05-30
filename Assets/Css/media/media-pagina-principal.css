@@ -17,6 +17,11 @@
     .section-principal-botoes {
         justify-content: center;
     }
+
+    .section-possui-conta {
+        width: 91%;
+        gap: 10px;
+    }
 }
 
 @media (max-width: 990px) {
@@ -74,6 +79,11 @@
 
     .section-principal-texto-principal {
         font-size: 29px;   
+    }
+
+    .section-possui-conta-botao {
+        width: 60%;
+        margin: auto;
     }
 
     .section-principal-paragrafo-principal {
@@ -153,7 +163,15 @@
         display: grid;
         grid-template-columns: 5fr;
     }
-    
+
+    .perguntas-frequentes {
+        margin: auto;
+    }
+
+    .section-botao-saiba-mais {
+        padding: var(--tamanho-botao-padrao);
+    }
+
     .section-principal-texto-principal {
         font-size: 23px;
     }
