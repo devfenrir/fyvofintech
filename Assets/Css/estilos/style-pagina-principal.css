@@ -1,0 +1,197 @@
+body,
+button,
+input,
+textarea {
+    font-family: var(--font-sora);
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.959);
+}
+
+/* Limitador de conteúdo */
+
+.limita-conteudo {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 100%;
+}
+
+/* -------- */
+
+/* Destaque de texto */
+
+.destaque-texto-verde {
+    color: var(--cor-verde-principal);
+}
+
+.destaque-texto-cinza-escuro {
+    color: var(--cor-cinza-escuro);
+}
+
+.destaque-texto-cinza-claro {
+    color: var(--cor-cinza-claro);
+}
+
+.destaque-texto-branco-basico {
+    color: var(--cor-branco-basico);
+}
+
+/* -------- */
+
+/* Botões */
+
+.estilo-botao-verde {
+    background-color: var(--cor-verde-principal);
+    padding: var(--tamanho-botao-padrao);
+    color: var(--cor-branco-basico);
+    font-size: 17px;
+    border-radius: 14px;
+}
+
+.estilo-botao-branco {
+    background-color: var(--cor-branco-basico);
+    padding: var(--tamanho-botao-padrao);
+    color: var(--cor-verde-principal);
+    font-size: 17px;
+    border: 1px solid var(--cor-verde-principal);
+    border-radius: 14px;
+}
+
+/* -------- */
+
+/* Hovers */
+
+.items-footer-estilo:hover {
+    color: var(--cor-branco-basico);
+    transition: var(--tempo-transicao-hover);
+    font-weight: 800;
+    border-bottom: 2px solid var(--cor-branco-basico);
+}
+
+.estilo-botao-verde:hover {
+    background-color: var(--cor-verde-principal-hover);
+    transition: var(--tempo-transicao-hover);
+}
+
+.estilo-botao-branco:hover {
+    background-color: var(--cor-cinza-escuro);
+    transition: var(--tempo-transicao-hover);
+    color: var(--cor-branco-basico);
+}
+
+.estilo-header-items:hover {
+    color: var(--cor-verde-principal);
+    font-weight: 800;
+    transition: var(--tempo-transicao-hover);
+    border-bottom: 2px solid var(--cor-verde-principal);
+}
+
+/* Ajustes */
+
+.margin-top-espacamento-footer {
+    margin-top: 76px;
+}
+
+.fs-controle-financeiro {
+    font-size: 21px;
+}
+
+.mt-section {
+    margin-top: 120px;
+}
+
+.ajuste-card {
+    margin-top: 65px;
+}
+
+.ajuste-img-section-cards {
+    width: 15%;
+    background-color: #ace0a78f;
+    padding: 8px;
+    border-radius: 180px;
+}
+
+.w-logo-ajuste {
+    width: 10%;
+}
+
+.w-img-principal {
+    width: 100%;
+}
+
+.w-img-grafico {
+    width: 100%;
+}
+
+.w-img-cofrinho-dinheiro {
+    width: 80%;
+}
+
+.tamanho-section-principal {
+    height: 790px;   
+}
+
+.tamanho-section-sobre-iniciativa {
+    height: 230px;
+}
+
+.mt-section-cofrinho {
+    margin-top: 200px;
+}
+
+.w-icon-seta {
+    width: 18%;
+}
+
+.ajuste-section-principal {
+    margin-top: 190px;
+}
+
+/* -------- */
+
+
+/* Estilos Generalistas */
+
+.estilo-header-items {
+    color: var(--cor-cinza-basico);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.bg-cor-verde {
+    background-color: var(--cor-verde-principal);
+}
+
+.estilizacao-footer {
+    background-color: var(--cor-footer-escuro);
+    height: 444px;
+}
+
+.border-estilizado-card {
+    background-color: var(--cor-branco-basico);
+    border-radius: 10px;
+    border: 1px solid #00000034;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.items-footer-estilo {
+    color: var(--cor-branco-basico);
+}
+
+.img-estilizado-cofrinho {
+    border-radius: 10px;
+    border: 1px solid #00000034;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.gradiente-section-principal {
+    background: linear-gradient(to bottom,#04280065, #cccccc6e,#ffffff9f, #ffffff);
+}
+
+/* --------- */
