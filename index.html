@@ -73,7 +73,10 @@
             nossos usuários</h3>
           <div class="section-principal-botoes d-flex align-items-center gap-4 mt-4">
             <a class="estilo-botao-verde text-decoration-none" href="#">Comece Agora</a>
-            <button class="section-botao-saiba-mais estilo-botao-branco">Saiba mais</button>
+            <button class="section-botao-saiba-mais estilo-botao-branco" data-saiba-mais>Saiba mais</button>
+            <div data-componente-dinamico>
+
+            </div>
           </div>
         </div>
         <div class="ajuste-section-principal">
@@ -136,12 +139,14 @@
           <a class="estilo-botao-branco text-decoration-none" href="#">Saiba mais</a>
         </div>
         <div>
-          <img class="w-img-grafico" src="/Assets/Images/grafico.png" alt="imagem de um gráfico nas cores branco e verde">
+          <img class="w-img-grafico" src="/Assets/Images/grafico.png"
+            alt="imagem de um gráfico nas cores branco e verde">
         </div>
       </div>
     </section>
 
-    <section aria-label="Tutoriais em vídeos" class="text-center mt-section bg-cor-verde tamanho-section-sobre-iniciativa">
+    <section aria-label="Tutoriais em vídeos"
+      class="text-center mt-section bg-cor-verde tamanho-section-sobre-iniciativa">
       <div class="section-chamada-videos limita-conteudo pt-4">
         <h2 class="destaque-texto-branco-basico fw-bold">Assista nossos vídeos iniciais</h2>
         <h5 class="section-tutoriais-paragrafo destaque-texto-branco-basico fw-light py-2">"Aqui você encontrará
@@ -239,6 +244,7 @@
           href="#">contatofyvo@gmail.com</a>
       </div>
     </div>
+
     <div class="text-center margin-top-espacamento-footer">
       <hr class="destaque-texto-cinza-claro limita-conteudo">
       <p class="destaque-texto-cinza-claro pt-2">Fyvo. Todos os direitos reservados</p>
@@ -246,11 +252,22 @@
     </div>
   </footer>
 
+  <!-- Overlay, efeito modal -->
+
+  <div class="overlay" id="overlay">
+    <div class="modal-saiba-mais">
+      <h2>Por que escolher a Fyvo?</h2>
+      <p>Na Fyvo, você tem controle financeiro na palma da mão com segurança, praticidade e autonomia. Venha apoveitar o que oferecemos a você!</p>
+      <button class="fechar-modal" data-fechar-modal>Fechar</button>
+    </div>
+  </div>
+
   <!-- Fim do footer - Página Principal -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
     crossorigin="anonymous"></script>
+  <script src="/Assets/Js/pagina-principal.js"></script>
 </body>
 
 </html>
