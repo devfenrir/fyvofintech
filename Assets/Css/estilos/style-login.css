@@ -1,0 +1,136 @@
+/* Estilos importados */
+
+body,
+button,
+input,
+textarea {
+    font-family: var(--font-sora);
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.959);
+}
+
+.limita-conteudo {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 100%;
+}
+
+.w-logo-ajuste {
+    width: 10%;
+}
+
+.estilo-header-items {
+    color: var(--cor-cinza-basico);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.estilo-header-items:hover {
+    color: var(--cor-verde-principal);
+    font-weight: 800;
+    transition: var(--tempo-transicao-hover);
+    border-bottom: 2px solid var(--cor-verde-principal);
+}
+
+.estilo-botao-verde:hover {
+    background-color: var(--cor-verde-principal-hover);
+    transition: var(--tempo-transicao-hover);
+}
+
+.estilo-botao-branco:hover {
+    background-color: var(--cor-cinza-escuro);
+    transition: var(--tempo-transicao-hover);
+    color: var(--cor-branco-basico);
+}
+
+.estilo-botao-verde {
+    background-color: var(--cor-verde-principal);
+    padding: var(--tamanho-botao-padrao);
+    color: var(--cor-branco-basico);
+    font-size: 17px;
+    border-radius: 14px;
+}
+
+.estilo-botao-branco {
+    background-color: var(--cor-branco-basico);
+    padding: var(--tamanho-botao-padrao);
+    color: var(--cor-verde-principal);
+    font-size: 17px;
+    border: 1px solid var(--cor-verde-principal);
+    border-radius: 14px;
+}
+
+/* Estilos próprios */
+
+.gradiente-section-principal {
+    background: linear-gradient(to bottom,#04280065, #cccccc6e,#ffffff9f, #ffffff);
+}
+
+.background-login {
+    height: 100vh;
+    width: 100%;
+}
+
+.formulario {
+    background-color: var(--cor-branco-basico);
+    position: relative;
+    top: 22%;
+
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.formulario-email,
+.formulario-senha {
+  position: relative;
+}
+
+.icone-img-input {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 22px;
+  pointer-events: none;
+}
+
+.limita-conteudo-login {
+  max-width: 934px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2.0rem;
+  padding-right: 2.0rem;
+  width: 100%;
+}
+
+.formulario-titulo {
+    padding-top: 28px;
+    font-weight: 700;
+    color: var(--cor-verde-principal);
+}
+
+.formulario-div-inputs {
+    margin-top: 40px;
+}
+
+.input-email,
+.input-senha {
+    width: 700px;
+    height: 58px;
+
+    border-radius: 9px;
+    border: 2px solid var(--cor-verde-principal);
+    padding-left: 52px; 
+    font-size: 16px;
+    padding-right: 16px;
+    color: #333;
+}
