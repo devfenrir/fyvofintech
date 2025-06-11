@@ -17,6 +17,7 @@
     <!-- Link para arquivos css -->
     <link rel="stylesheet" href="/Assets/Css/estilos/style-login.css">
     <link rel="stylesheet" href="/Assets/Css/variables.css">
+    <link rel="stylesheet" href="/Assets/Css/media/media-login.css">
 </head>
 
 <body>
@@ -43,7 +44,7 @@
                 </div>
 
                 <div class="d-flex align-items-center gap-4">
-                    <a class="header-botoes text-decoration-none estilo-botao-branco" href="#">Entrar</a>
+                    <a class="header-botoes text-decoration-none estilo-botao-branco-login" href="#">Entrar</a>
                     <a class="header-botoes text-decoration-none estilo-botao-verde" href="#">Registrar</a>
                 </div>
             </div>
@@ -51,19 +52,37 @@
     </header>
 
     <main aria-label="Informacao Login">
-        <section class="background-login gradiente-section-principal">
+        <section class="background-login gradiente-section-principal-login">
             <div class="formulario d-flex flex-column align-items-center limita-conteudo-login">
                 <h3 class="formulario-titulo">Entrar em sua conta</h2>
-                <form class="d-flex flex-column formulario-div-inputs gap-4">
-                    <div class="formulario-email">
-                        <img class="icone-img-input" src="/Assets/Images/email.svg" alt="icone de carta indicando email">
-                        <input placeholder="Email" class="input-email" type="email">
-                    </div>
-                    <div class="formulario-senha">
-                        <img class="icone-img-input" src="/Assets/Images/senha.svg" alt="icone de cadeado indicando senha">
-                        <input placeholder="Senha" class="input-senha" type="password">
-                    </div>
-                </form>
+                    <form class="d-flex flex-column formulario-div-inputs gap-4">
+                        <div class="formulario-email">
+                            <img class="icone-img-input" src="/Assets/Images/email.svg"
+                                alt="icone de carta indicando email">
+                            <input placeholder="Email" class="input-email" type="email">
+                        </div>
+                        <div class="formulario-senha">
+                            <img class="icone-img-input" src="/Assets/Images/senha.svg"
+                                alt="icone de cadeado indicando senha">
+                            <input placeholder="Senha" class="input-senha" type="password">
+                        </div>
+                        <div class="formulario-check d-flex gap-3">
+                            <input class="input-checkbox" type="checkbox">
+                            <p class="titulo-verde">Manter minha conta conectada</p>
+                        </div>
+                        <div class="div-google-login d-flex align-items-center gap-4">
+                            <img class="p-3" src="/Assets/Images/devicon_google.svg" alt="icone do google">
+                            <a class="color-google-text fs-size text-decoration-none" href="">Entrar com Google</a>
+                        </div>
+                        <div class="d-flex flex-column text-start gap-3">
+                            <a class="color-link" href="">Esqueci minha senha</a>
+                            <a class="color-link" href="">Criar uma conta</a>
+                        </div>
+                        <div class="botoes-formulario-login d-flex gap-4">
+                            <a class="estilo-botao-branco-login text-decoration-none" href="/index.html">Cancelar</a>
+                            <a class="estilo-botao-verde-login text-decoration-none" href="#">Entrar</a>
+                        </div>
+                    </form>
             </div>
         </section>
     </main>
