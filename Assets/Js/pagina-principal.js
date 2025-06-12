@@ -1,4 +1,4 @@
-/* Interação com saiba mais sobre a fyvo */
+// /* Interação com saiba mais sobre a fyvo */
 
 const botaoSaibaMais = document.querySelector('[data-saiba-mais]')
 const overlay = document.querySelector('[data-overlay-saiba-mais]')
@@ -12,4 +12,4 @@ fecharModal.addEventListener('click', () => {
   overlay.style.display = 'none'
 })
 
-/* ------------------------------------------ */
+// /* ------------------------------------------ */
