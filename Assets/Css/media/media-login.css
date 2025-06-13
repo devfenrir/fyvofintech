@@ -59,7 +59,7 @@
 }
 
 @media (max-width: 510px) {
-        .input-email,
+    .input-email,
     .input-senha {
     width: 360px;
     height: 56.09px;
@@ -71,7 +71,25 @@
 
     .botoes-formulario-login {
         flex-direction: column;
-        padding-bottom: 16px;
-        
+        padding-bottom: 16px;   
+    }
+}
+
+@media (max-width: 460px) {
+    .formulario {
+        width: 84%;
+        top: 14%;
+    }
+
+    .input-email,
+    .input-senha {
+    width: 340px;
+    height: 52px;
+    }
+
+    .div-google-login {
+    width: 340px;
+    height: 55.42px;
+
     }
 }
