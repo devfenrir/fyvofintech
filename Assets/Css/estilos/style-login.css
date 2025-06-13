@@ -99,6 +99,9 @@ header {
     border-bottom-left-radius: 14px;
     border-top-left-radius: 14px;
     border-bottom-right-radius: 14px;
+
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .formulario-email,
@@ -177,7 +180,7 @@ header {
 .botoes-formulario-login {
     justify-content: start;
     padding-bottom: 25px;
-    padding-top: 18px;
+    padding-top: 9.42px;
 }
 
 .color-link {
@@ -200,7 +203,7 @@ header {
 }
 
 .color-google-text {
-    color: rgb(145, 145, 145);
+    color: rgb(0, 0, 0);
     font-weight: 400;
 }
 
