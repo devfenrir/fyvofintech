@@ -1,0 +1,30 @@
+@media (max-width: 991px) {
+    .formulario {
+        top: 16%;
+    }
+
+    .header-botoes {
+        display: none;
+    }
+}
+
+@media (max-width: 851px) {
+    .formulario {
+        width: 90%;
+    }
+}
+
+@media (max-width: 816px) {
+    .input-email,
+    .input-senha {
+    width: 700px;
+    height: 67px;
+
+    border-radius: 9px;
+    border: 2px solid var(--cor-verde-principal);
+    padding-left: 52px; 
+    font-size: 16px;
+    padding-right: 16px;
+    color: #333;
+    }
+}

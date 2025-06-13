@@ -82,13 +82,13 @@ header {
 
 /* Estilos próprios */
 
-.gradiente-section-principal-login {
-    background: linear-gradient(to bottom,#04280065, #ccccccad,#ffffffb9, rgba(4, 40, 0, 0.226));
-}
-
 .background-login {
     height: 100vh;
     width: 100%;
+    background-image: url(/Assets/Images/background-login.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .formulario {
