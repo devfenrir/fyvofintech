@@ -210,3 +210,39 @@ header {
 .fs-size {
     font-size: 18px;
 }
+
+/* CheckBox Personalizado */
+
+.input-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: white;
+    border: 2px solid var(--cor-verde-principal);  
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    transition: all 0.2s ease;
+}
+
+
+.input-checkbox:checked {
+    background-color: var(--cor-verde-principal);
+    border-color: var(--cor-verde-principal);
+}
+
+
+.input-checkbox:checked::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}

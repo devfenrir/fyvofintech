@@ -66,9 +66,11 @@
                                 alt="icone de cadeado indicando senha">
                             <input placeholder="Senha" class="input-senha" type="password">
                         </div>
-                        <div class="formulario-check d-flex gap-3">
-                            <input class="input-checkbox" type="checkbox">
-                            <p class="titulo-verde">Manter minha conta conectada</p>
+                        <div class="formulario-check d-flex gap-3 checkbox-personalizado">
+                            <label class="checkbox-personalizado checkbox-label d-flex align-items-center gap-2">
+                                <input class="input-checkbox" type="checkbox" data-checkbox-login>
+                                <span class="titulo-verde">Manter minha conta conectada</span>
+                            </label>
                         </div>
                         <div class="div-google-login d-flex align-items-center gap-4">
                             <img class="p-3" src="/Assets/Images/devicon_google.svg" alt="icone do google">
@@ -86,6 +88,7 @@
             </div>
         </section>
     </main>
+    <script src="/Assets/Js/login.js"></script>
 </body>
 
 </html>
