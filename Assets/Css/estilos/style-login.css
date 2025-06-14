@@ -130,6 +130,7 @@ header {
 
 .formulario-titulo {
     padding-top: 36px;
+    border-bottom: 1px solid var(--cor-verde-opaca);
     
     font-weight: 700;
     color: var(--cor-verde-principal);
@@ -209,6 +210,15 @@ header {
 
 .fs-size {
     font-size: 18px;
+}
+
+.div-google-login:hover {
+    background-color: #eeeded9f;
+}
+
+.color-google-text:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
+    transition: 0.2s;
 }
 
 /* CheckBox Personalizado */
