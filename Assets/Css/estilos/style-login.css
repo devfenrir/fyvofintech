@@ -216,11 +216,6 @@ header {
     background-color: #eeeded9f;
 }
 
-.color-google-text:hover {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.281);
-    transition: 0.2s;
-}
-
 /* CheckBox Personalizado */
 
 .input-checkbox {

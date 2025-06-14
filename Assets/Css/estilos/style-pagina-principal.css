@@ -68,10 +68,8 @@ header {
 /* Hovers */
 
 .items-footer-estilo:hover {
-    color: var(--cor-branco-basico);
+    border-bottom: 1px solid var(--cor-branco-basico);
     transition: var(--tempo-transicao-hover);
-    font-weight: 800;
-    border-bottom: 2px solid var(--cor-branco-basico);
 }
 
 .estilo-botao-verde:hover {
@@ -213,7 +211,7 @@ header {
   background: white;
   padding: 2rem;
   border-radius: 16px;
-  max-width: 500px;
+  max-width: 640px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.2);
   text-align: center;
   animation: fadeAnimacao 0.4s cubic-bezier(0.23, 1, 0.32, 1);
