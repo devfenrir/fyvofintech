@@ -1,1 +1,168 @@
-/* EM DESENVOLVIMENTO */
+/* Estilos importados */
+
+body,
+button,
+input,
+textarea {
+    font-family: var(--font-sora);
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.959);
+}
+
+.limita-conteudo {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 100%;
+}
+
+.w-logo-ajuste {
+    width: 10%;
+}
+
+.estilo-header-items {
+    color: var(--cor-cinza-basico);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.estilo-header-items:hover {
+    color: var(--cor-verde-principal);
+    font-weight: 800;
+    transition: var(--tempo-transicao-hover);
+    border-bottom: 2px solid var(--cor-verde-principal);
+}
+
+.estilo-botao-verde-login:hover {
+    background-color: var(--cor-verde-principal-hover);
+    transition: var(--tempo-transicao-hover);
+}
+
+.estilo-botao-verde:hover {
+    background-color: var(--cor-verde-principal-hover);
+    transition: var(--tempo-transicao-hover);
+}
+
+.estilo-botao-branco-login:hover {
+    background-color: var(--cor-cinza-escuro);
+    transition: var(--tempo-transicao-hover);
+    color: var(--cor-branco-basico);
+}
+
+.estilo-botao-verde-login {
+    background-color: var(--cor-verde-principal);
+    padding: 13px 37.05px;
+    color: var(--cor-branco-basico);
+    font-size: 17px;
+    border-radius: 14px;
+}
+
+.estilo-botao-verde {
+    background-color: var(--cor-verde-principal);
+    padding: var(--tamanho-botao-padrao);
+    color: var(--cor-branco-basico);
+    font-size: 17px;
+    border-radius: 14px;
+}
+
+.estilo-botao-branco-login {
+    background-color: var(--cor-branco-basico);
+    padding: var(--tamanho-botao-padrao);
+    color: var(--cor-verde-principal);
+    font-size: 17px;
+    border: 1px solid var(--cor-verde-principal);
+    border-radius: 14px;
+}
+
+/* Próprios */
+
+body {
+    background-image: url(/Assets/Images/background-login.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.section-cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;                     
+    padding-top: 8rem;                     
+    padding-bottom: 4rem;
+}
+
+.formulario-cadastro {
+    background-color: var(--cor-branco-basico);
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    
+    width: 100%;
+    margin-top: 5rem;
+    max-width: 700px;                      
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.formulario-titulo-cadastro-dados-pessoais,
+.formulario-titulo-cadastro-endereco {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--cor-verde-principal);
+    border-bottom: 1px solid var(--cor-verde-opaca);
+    text-align: center;
+}
+
+.formulario-div-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.formulario-nome,
+.formulario-email,
+.formulario-celular,
+.formulario-cpf,
+.formulario-senha {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 2px solid var(--cor-verde-principal);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    background-color: #fff;
+}
+
+.input-nome,
+.input-email,
+.input-celular,
+.input-cpf,
+.input-senha {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    background-color: transparent;
+}
+
+.input-nome::placeholder,
+.input-email::placeholder,
+.input-celular::placeholder,
+.input-cpf::placeholder,
+.input-senha::placeholder {
+    color: rgba(1, 46, 1, 0.541);
+}
+
+.icone-img-input {
+    width: 20px;
+    height: 20px;
+}
