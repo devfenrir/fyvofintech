@@ -90,6 +90,11 @@ header {
     border-bottom: 2px solid var(--cor-verde-principal);
 }
 
+.section-card-item:hover {
+    box-shadow:0 0 13px rgba(0, 32, 6, 0.575);
+    transition: 0.2s;
+}
+
 /* Ajustes */
 
 .margin-top-espacamento-footer {
