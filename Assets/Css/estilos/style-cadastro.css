@@ -114,7 +114,8 @@ body {
 }
 
 .formulario-titulo-cadastro-dados-pessoais,
-.formulario-titulo-cadastro-endereco {
+.formulario-titulo-cadastro-endereco,
+.formulario-titulo-cadastro-tecnologia-e-financas {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--cor-verde-principal);
@@ -132,7 +133,8 @@ body {
 .formulario-email,
 .formulario-celular,
 .formulario-cpf,
-.formulario-senha {
+.formulario-senha,
+.formulario-cidade {
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -146,7 +148,8 @@ body {
 .input-email,
 .input-celular,
 .input-cpf,
-.input-senha {
+.input-senha,
+.input-cidade {
     flex: 1;
     border: none;
     outline: none;
@@ -158,11 +161,18 @@ body {
 .input-email::placeholder,
 .input-celular::placeholder,
 .input-cpf::placeholder,
-.input-senha::placeholder {
+.input-senha::placeholder,
+.input-cidade::placeholder {
     color: rgba(1, 46, 1, 0.541);
 }
 
 .icone-img-input {
     width: 20px;
     height: 20px;
+}
+
+.formulario-tecnologia-titulo {
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
 }
