@@ -1,4 +1,4 @@
-// /* Interação com saiba mais sobre a fyvo */
+// /* Botão saiba mais */
 
 const botaoSaibaMais = document.querySelector('[data-saiba-mais]')
 const overlay = document.querySelector('[data-overlay-saiba-mais]')
@@ -22,4 +22,18 @@ window.addEventListener('scroll', function () {
   } else {
     header.classList.remove('rolagem')
   }
+})
+
+/* Botão assistir */
+
+const botaoAssistirAciona = document.querySelector('[data-assistir-button-aciona]')
+const componenteMensagemAssistir = document.querySelector('[data-videos]')
+const fecharBotaoAssistir = document.querySelector('[data-fechar-assistir]')
+
+botaoAssistirAciona.addEventListener('click', () => {
+  componenteMensagemAssistir.style.display = 'flex'
+})
+
+fecharBotaoAssistir.addEventListener('click', () => {
+  componenteMensagemAssistir.style.display = 'none'
 })
