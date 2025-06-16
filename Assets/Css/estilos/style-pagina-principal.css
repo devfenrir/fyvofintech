@@ -11,6 +11,11 @@ header {
     background-color: rgba(255, 255, 255, 0.959);
 }
 
+header.rolagem {
+    background-color: rgba(0, 0, 0, 0.863);
+    border-bottom: 1px solid var(--cor-cinza-basico);
+}
+
 /* Limitador de conteúdo */
 
 .limita-conteudo {
