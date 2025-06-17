@@ -24,23 +24,23 @@ export const fonteTextoBox = () => {
 export const moreButtonOpen = () => {
     const overlay = document.querySelector('[data-overlay-saiba-mais]')
 
-    overlay.style.display = 'flex'
+    overlay.classList.add('display-flex')
 }
 
 export const moreButtonClose = () => {
     const overlay = document.querySelector('[data-overlay-saiba-mais]')
 
-    overlay.style.display = 'none'
+    overlay.classList.remove('display-flex')
 }
 
 export const viewSectionVideosOpen = () => {
     const componenteMensagemAssistir = document.querySelector('[data-videos]')
 
-    componenteMensagemAssistir.style.display = 'flex'
+    componenteMensagemAssistir.classList.add('display-flex')
 }
 
 export const viewsectionVideosClose = () => {
     const componenteMensagemAssistir = document.querySelector('[data-videos]')
 
-    componenteMensagemAssistir.style.display = 'none'
+    componenteMensagemAssistir.classList.remove('display-flex')
 }

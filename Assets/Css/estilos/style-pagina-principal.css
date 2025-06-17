@@ -299,3 +299,7 @@ header {
     background-color: var(--cor-verde-principal-hover);
     transition: var(--tempo-transicao-hover);
 }
+
+.display-flex {
+    display: flex;
+}
