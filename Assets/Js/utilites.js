@@ -1,3 +1,5 @@
+// Função Scroll Window
+
 export const scrollEffect = () => {
     const header = document.querySelector('[data-header]')
 
@@ -7,6 +9,8 @@ export const scrollEffect = () => {
         header.classList.remove('rolagem')
     }
 }
+
+// Função Modifica Peso
 
 export const fonteTextoBox = () => {
     const checkboxLogin = document.querySelector('[data-checkbox-login]')
@@ -21,6 +25,8 @@ export const fonteTextoBox = () => {
     }
 }
 
+// Funções de Botão saiba mais - modal
+
 export const moreButtonOpen = () => {
     const overlay = document.querySelector('[data-overlay-saiba-mais]')
 
@@ -32,6 +38,8 @@ export const moreButtonClose = () => {
 
     overlay.classList.remove('display-flex')
 }
+
+// Funções de assistir - modal
 
 export const viewSectionVideosOpen = () => {
     const componenteMensagemAssistir = document.querySelector('[data-videos]')
