@@ -323,3 +323,13 @@ header {
 .display-flex {
     display: flex;
 }
+
+/* Especiais */
+
+.invisivel-scroll {
+  opacity: 0;
+}
+
+.visivel-scroll {
+  opacity: 1;
+}
