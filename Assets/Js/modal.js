@@ -1,11 +1,11 @@
-const componenteModalSaibaMais = document.querySelector('[data-overlay-saiba-mais]')
-
+// Funcao global para lidar com desaparecimento e surgimento
 const janelaModal = (typeAction, element) => {
     if (typeAction === 'open') element.style.display = 'flex'
     else if (typeAction === 'close') element.style.display = 'none'
 }
 
 // /* Botão saiba mais */
+const componenteModalSaibaMais = document.querySelector('[data-overlay-saiba-mais]')
 
 const botaoSaibaMais = document.querySelector('[data-saiba-mais]')
 const botaoSaibaMaisFechar = document.querySelector('[data-fechar-modal]')
@@ -14,6 +14,7 @@ botaoSaibaMais.addEventListener('click', () => janelaModal('open', componenteMod
 botaoSaibaMaisFechar.addEventListener('click', () => janelaModal('close', componenteModalSaibaMais))
 
 /* Botão assistir */
+
 const componenteVideos = document.querySelector('[data-videos]')
 
 const botaoAssistirAciona = document.querySelector('[data-assistir-button-aciona]')
