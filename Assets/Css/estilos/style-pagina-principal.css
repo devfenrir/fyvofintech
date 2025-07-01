@@ -136,6 +136,14 @@ header {
     border-radius: 180px;
 }
 
+.mt-personalizada-40 {
+    margin-top: 40px;
+}
+
+.pt-personalizado-32 {
+    padding-top: 32px;
+}
+
 .w-logo-ajuste {
     width: 10%;
 }
